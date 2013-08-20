@@ -1,6 +1,8 @@
 FRITZ!Box JS-Controller
 ==
 
+German article: http://50226.de/fritz-box-js-controller.html
+
 The FRITZ!Box JS-Controller is a JavaScript [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that (currently) supports the recreation of an external IP address using an AVM FRITZ!Box router.
 
 The following devices are known to be supported:
