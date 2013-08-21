@@ -19,10 +19,10 @@ var FB = function() {
     }
     
     var getIPAction = 'urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress'
-    var getIPXML = '<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope" s:encordingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:GetExternalIPAdress xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1"/> </s:Body></s:Envelope>'
+    var getIPXML = '<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope"><s:Body><u:GetExternalIPAdress/></s:Body></s:Envelope>'
     
     var newIPAction = 'urn:schemas-upnp-org:service:WANIPConnection:1#ForceTermination'
-    var newIPXML = '<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope" s:encordingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:ForceTermination xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1"/></s:Body></s:Envelope>'
+    var newIPXML = '<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope"><s:Body><u:ForceTermination/></s:Body></s:Envelope>'
     
     var lastIP = '0.0.0.0'
     
