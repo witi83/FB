@@ -1,7 +1,9 @@
 FRITZ!Box JS-Controller
 ==
 
-The FRITZ!Box JS-Controller is a JavaScript bookmarklet that (currently) supports the recreation of an external IP address using an AVM FRITZ!Box router.
+German article: http://50226.de/fritz-box-js-controller.html
+
+The FRITZ!Box JS-Controller is a JavaScript [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that (currently) supports the recreation of an external IP address using an AVM FRITZ!Box router.
 
 The following devices are known to be supported:
 * AVM FRITZ!Box Fon WLAN 7050
@@ -15,7 +17,7 @@ This script uses the uPNP interface of the router (a kind of a SOAP webservice).
 All modern browsers are supported, except for the Internet Explorer. Unfortunately, he doesn't like my script...
 
 ##Installation and usage
-1. Drag and drop this script onto the bookmark bar of your browser.
+1. Create a new bookmark in your browser and use the content of [this script](build/fb.js) as the URL.
 2. Click on the new bookmark. If you're not already on the correct website, you will be redirected to http://fritz.box:49000/ Yes, you will see something like "404 Not Found", but that's expected.
 3. If you've been redirected, start the script again.
 
